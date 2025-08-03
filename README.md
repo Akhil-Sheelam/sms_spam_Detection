@@ -44,7 +44,6 @@ python main.py<br>
 
 📦 Requirements<br>
 Python 3.10<br>
-
 TensorFlow 2.14.0<br>
 NumPy 1.26.4<br>
 scikit-learn<br>
