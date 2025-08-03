@@ -14,43 +14,43 @@ Visualizing accuracy and loss over training epochs<br>
 
 🧠 Model Architecture<br>
 Embedding Layer: 5000 vocab size, 16 dimensions<br>
-GlobalAveragePooling1D
-Dense Layer: 24 units, ReLU
-Output Layer: 1 unit, Sigmoid
+GlobalAveragePooling1D<br>
+Dense Layer: 24 units, ReLU<br>
+Output Layer: 1 unit, Sigmoid<br>
 
-🗂️ Project Structure
-sms-spam-detection/
-│
-├── spam.csv # Dataset (SMS spam collection)
-├── train_model.py # Script to preprocess data and train model
-├── main.py # Script to load model & tokenizer, predict SMS text
-├── spam_model.h5 # Saved trained model
-├── tokenizer.pkl # Saved tokenizer for text preprocessing
-├── requirements.txt # All required dependencies
-└── README.md # Project documentation
+🗂️ Project Structure<br>
+sms-spam-detection/<br>
+│<br>
+├── spam.csv # Dataset (SMS spam collection)<br>
+├── train_model.py # Script to preprocess data and train model<br>
+├── main.py # Script to load model & tokenizer, predict SMS text<br>
+├── spam_model.h5 # Saved trained model<br>
+├── tokenizer.pkl # Saved tokenizer for text preprocessing<br>
+├── requirements.txt # All required dependencies<br>
+└── README.md # Project documentation<br>
 
-🧪 How to Use
-##1. Clone the repo
+🧪 How to Use<br>
+##1. Clone the repo<br>
 
-git clone https://github.com/your-username/sms-spam-detection.git
-cd sms-spam-detection
+git clone https://github.com/your-username/sms-spam-detection.git<br>
+cd sms-spam-detection<br>
 
-##2.Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate # On Windows
+##2.Create and activate a virtual environment<br>
+python -m venv venv<br>
+venv\Scripts\activate # On Windows<br>
 
-##3. Predict new SMS messages
-python main.py
+##3. Predict new SMS messages<br>
+python main.py<br>
 
-📦 Requirements
-Python 3.10
+📦 Requirements<br>
+Python 3.10<br>
 
-TensorFlow 2.14.0
-NumPy 1.26.4
-scikit-learn
-pandas
-matplotlib
+TensorFlow 2.14.0<br>
+NumPy 1.26.4<br>
+scikit-learn<br>
+pandas<br>
+matplotlib<br>
 
-✍️ Author
+✍️ Author<br>
 Akhil sheelam
 
