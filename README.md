@@ -5,15 +5,15 @@ SMS Spam Detection is a machine learning project that classifies SMS messages as
 This project detects whether an SMS message is spam or ham (not spam) using a deep learning model built with TensorFlow and Keras.<br>
 
 🚀 Features
-Preprocessing and tokenizing text data
-Building a neural network model using TensorFlow
-Training and validating the model
-Saving/loading model and tokenizer
-Predicting new messages (via main.py)
-Visualizing accuracy and loss over training epochs
+Preprocessing and tokenizing text data<br>
+Building a neural network model using TensorFlow<br>
+Training and validating the model<br>
+Saving/loading model and tokenizer<br>
+Predicting new messages (via main.py)<br>
+Visualizing accuracy and loss over training epochs<br>
 
-🧠 Model Architecture
-Embedding Layer: 5000 vocab size, 16 dimensions
+🧠 Model Architecture<br>
+Embedding Layer: 5000 vocab size, 16 dimensions<br>
 GlobalAveragePooling1D
 Dense Layer: 24 units, ReLU
 Output Layer: 1 unit, Sigmoid
